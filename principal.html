@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="imagenes/Logo ball z.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <title> Dragon Ball Z </title>
+</head>
+<style>
+  .container-fluid {
+    max-width: 80%;
+    box-shadow: 0px 0px 10px rgb(19, 228, 19);
+    overflow-x: hidden;
+  }
+
+  .card {
+    box-shadow: 0px 0px 10px rgba(183, 87, 87, 0.3);
+
+  }
+
+  .card-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .carousel-inner .carousel-item img {
+    height: 550px !important;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  #titulo{
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.Intro{
+  font-size:20px;
+}
+
+  iframe {
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .social {
+    color: #3bc8ff;
+    /* Color del texto */
+  }
+
+  .social i {
+    color: #368cee;
+    /* Color de fondo de los iconos */
+  }
+
+  #footer a {
+    color: rgb(25, 206, 34);
+  }
+
+  @media (min-width: 320px) and (max-width: 768px) {
+    .container-fluid {
+      max-width: 100%;
+      overflow-x: hidden;
+      margin: 2px;
+    }
+
+    .carousel-inner .carousel-item img {
+      height: 200px !important;
+      width: 100%;
+      object-fit: fill;
+      object-position: center;
+    }
+
+    h1 {
+      font-size: 25px;
+    }
+    .Intro{
+  font-size:18px;
+}
+
+    .card {
+      margin: 2px;
+      width: 100%;
+
+    }
+
+    .card-body {
+      width: 100%;
+    }
+
+    .card-title {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: justify;
+  }
+
+
+    iframe {
+      width: 100%;
+      height: 30vh;
+      border-radius: 15px;
+    }
+
+    img {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #footer a {
+      color: hsla(0, 100%, 89%, 0.815);
+    }
+  }
+</style>
+
+<body>
+  <!--Main Container-->
+  <div class="container-fluid">
+    <!--Header-->
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Dragon Ball Z</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="principal.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sobre_mi.html">Sobre Mi</a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Fin header-->
+    <!--Main- CARROUSEL-->
+    <main id="main">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block rounded" src="imagenes/steamuserimages-a.akamaihd.gif" alt="Demon 1">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="imagenes/vegeta 2.gif" alt="Demon 2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagenes/piccolo.gif" alt="Demon 3">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="imagenes/beerus.jpg" alt="Demon 4">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagenes/freezer.jpg" alt="Demon 5">
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block rounded" src="imagenes/bulma.jpg" alt="Demon 6">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagenes/majin boo.jpg" alt="Demon 7">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block  rounded" src="imagenes/cell.gif" alt="Demon 8">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagenes/krillin-dragon-ball-super.gif" alt="Demon 9">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagenes/maestro roshi.jpg" alt="Demon 10">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagenes/shenron-dragon-ball-z.gif" alt="Demon 1">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block  rounded" src="imagenes/kaio-sama-happy.gif" alt="Demon 12">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block rounded" src="imagenes/goten.jpg" alt="Demon 13">
+          </div>
+
+
+        </div>
+      </div>
+    </main>
+    <br>
+    <!--Fin Main-->
+    <div class="mt-2 m-1 text-dark rounded text-center p-1">
+      <h1>Dragon Ball Z:</h1>
+      <p class="Intro">Es un manga escrito e ilustrado por Akira Toriyama. Fue publicado originalmente en la revista S
+        hōnen Jump, de la editorial japonesa Shūeisha, entre 1984 y 1995.12 Su trama describe las aventuras de Gokū, 
+        un guerrero saiyajin, experto en artes marciales que en su infancia inicia sus viajes y aventuras en las que 
+        pone a prueba y mejora sus habilidades de pelea, enfrentando oponentes y protegiendo a la Tierra de otros 
+        seres que quieren conquistarla y exterminar a la humanidad.
+      </p>
+
+      <p class="Intro">Conforme transcurre la trama, conoce a otros personajes que le ayudan en este propósito. El nombre de la serie 
+        proviene de unas esferas mágicas que al ser reunidas invocan a un dragón que concede deseos. En varias ocasiones 
+        resultan útiles tanto para Gokū y sus amigos como para la humanidad, aunque también son procuradas de forma 
+        constante por algunos seres malignos.</p>
+      <p>
+        El manga tuvo 519 capítulos impresos recopilados en 42 volúmenes tankōbon. Dos años después de su lanzamiento, 
+        Toei Animation estrenó una adaptación anime que abarcó aproximadamente la primera mitad de la obra. Una vez 
+        concluida su transmisión en 1989 por el canal Fuji Television en Japón, Toei estrenó una continuación titulada 
+        Dragon Ball Z, la cual incorporó el contenido restante del manga.
+      </p>
+      <p class="Intro">
+        En más de treinta años de historia, Dragon Ball y Toei, con o sin la base directa de Akira Toriyama, han 
+        convertido a la saga en un fenómeno tan rentable como prolífico. Dragon Ball ha acompañado ya ha varias 
+        generaciones, y todavía sigue creciendo y ampliándose. Este 2022, de hecho, llega a España Dragon Ball Super: 
+        Super Hero, la última aventura cinematográfica de la saga, una que revivió en este siglo XXI gracias a la
+         serie Dragon Ball Super.<br>
+      </p>
+      <p class="Intro"> 
+        <strong>
+           La franquicia Dragon Ball ha obtenido ingresos totales informados de al menos $24 mil millones, 
+           la mayoría de los cuales provienen del sector del manga y el anime dentro de la franquicia. 
+           Sin embargo, considerando los proyectos adicionales inspirados en Dragon Ball, los ingresos 
+           totales podrían estar más cerca de los $30 mil millones.
+        </strong>
+      </p>
+      <p class="Intro"> 
+      Super Dragon Ball Heroes (2018-Actualidad)
+      Es una antología de capítulos de 6 minutos que sirven como material promocional de la franquicia 
+      de videojuegos de “Dragon Ball” en Japón. La serie presenta, libremente, nuevas evoluciones y fusiones 
+      de los personajes icónicos. Además, queda fuera del canon oficial del anime.</p>
+    </div>
+
+    <!--Galeria Grupo Card #1- 1Ero-->
+    <h3 class="mb-3 pb-3 text-center">Dragon Ball Z: Top Personajes Favoritos </h3>
+    <div class="card-group">
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="https://78.media.tumblr.com/0e15b7c70dec4fabf7bcb619d0c89b34/tumblr_inline_ozalqofeFu1qbjpiv_540.gif"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Goku</h5>
+          <p class="card-text">Goku Es el personaje principal del manga y anime Dragon Ball, 
+            un superviviente del Planeta Vegeta cuyo nombre nativo es Kakarotto (su nombre Saiyan) proveniente 
+            de una deformación del inglés "carrot" (zanahoria). Mide 1.75cm y pesa 62 Kg.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="imagenes/vegeta 3.gif"
+         alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Vegeta</h5>
+          <p class="card-text">Vegeta, también conocido como Príncipe Vegeta o alternativamente con el estilo Vegeta IV, 
+             es un personaje de ficción de la franquicia Dragon Ball creado por Akira Toriyama.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <div class="card m-1 p-2">
+        <img class="card-img-top" src="imagenes/bulma 2.gif"
+          alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Bulma</h5>
+          <p class="card-text">Bulma es básicamente la protagonista femenina en Dragon Ball, es una gran científica y es hija del Dr. Brief. 
+            Su gran amistad con Goku la lleva a unirse a él en la búsqueda de las esferas del dragón.
+            ataques complejos y poderosos.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+   <!--Galeria Grupo Card #2 -->
+      <div class="card-group">
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="imagenes/Krilin-powerup.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Krilin</h5>
+            <p class="card-text">Krilin es un personaje de la serie de manga y anime Dragon Ball. Es el primer rival en artes marciales 
+              de Son Gokū aunque luego se convierte en su mejor amigo. Su nombre proviene del japonés castaña 
+              y la terminación de shaolin..</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top"
+            src="imagenes/Maestro Roshi 2.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Maestro Roshi</h5>
+            <p class="card-text">Ermitaño Tortuga (亀仙人, Kame-Sen'nin) también llamado Muten Roshi y conocido en latinoamérica como Maestro Roshi. 
+              Es el personaje principal del anime Dragon Ball y secundario de las otras adaptaciones. Fue maestro de Son Goku y Krilin, 
+              como también el hombre más fuerte de la tierra en un tiempo.
+              
+              
+              
+              .</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="imagenes/piccolo 2.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Piccolo</h5>
+            <p class="card-text"> Es un personaje de ficción de la serie de manga y anime Dragon Ball. Como su padre 
+              (Piccolo Daimaō) surgió tras separarse de Kamisama, si uno de los dos muere, el otro también.
+               Odia a su alter ego, aunque es mucho más fuerte y menos malvado que su padre, en parte debido a su 
+               entrenamiento con Son Gohan a quien veía como a un hijo.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+   <!--Galeria Grupo Card #3- -->
+        <div class="card-group">
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="imagenes/ten shin han.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Ten Shin Han</h5>
+              <p class="card-text">Es un luchador terrícola humano de artes marciales descendiente de un clan alienígena, que 
+                tras realizar un largo entrenamiento mental, obtuvo un tercer ojo. Es considerado uno de los 
+                individuos más poderosos provenientes de la Tierra dentro del universo de Dragon Ball.</p>
+                
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="imagenes/frieza-goku.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Freezer</h5>
+              <p class="card-text">Conocido también como Freezer, es un alienígena mutante, brutal dictador y líder 
+                del Imperio Galáctico del Universo 7 con el apoyo estratégico en secreto de su padre Cold. En las películas 
+                también lidera este imperio su hermano mayor Coola. Además de ser considerado como la contraparte de Frost del Universo 6.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card m-1 p-2">
+            <img class="card-img-top" src="imagenes/android18.gif"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Androide 18</h5>
+              <p class="card-text">Número 18 aparece en la 'Saga de los androides' junto a su hermano mellizo Número 17, quienes 
+                tenían encomendada la misión de eliminar a Gokú. Sin embargo, su misión queda interrumpida cuando Cell, otro androide 
+                del Dr. Gero, los absorbió para completar su transformación..</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+
+   <!--Galeria Grupo Card #4--->
+            <div class="card-group">
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="imagenes/Androide 17.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Androide 17</h5>
+            <p class="card-text">Es uno de los androides Red Ribbon creado por el Dr. Gero para 
+              llevar a cabo su venganza contra Son Goku. Mientras que los otros androides son en 
+              su mayoría mecánicos, 17 y su hermana gemela son cyborgs, habiendo sido transformados 
+              por la fuerza en sus estados actuales por Gero.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top"
+            src="imagenes/Trunks del Futuro 2.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Trunks del Futuro:</h5>
+            <p class="card-text">Es un personaje de Dragon Ball Z que solo aparece en los flashbacks de Cell. 
+              El es el Trunks de la línea de tiempo original, la Línea 3, que viajó por primera vez hacia un pasado 
+              (tal y como hizo el Trunks que conocemos) para informar a los Guerreros Z de la existencia de los Androides.</p>
+            <pclass="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card m-1 p-2">
+          <img class="card-img-top" src="imagenes/cell 2.gif"
+            alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Cell</h5>
+            <p class="card-text">Es un bioandroide creado por la computadora del Dr. Gero, quien vino del futuro de la línea 3 con la intención de vengarse de Goku 
+              por haber acabado con el Ejército del Listón Rojo, y con ello el sueño de todo villano: dominar el mundo. Es el antagonista principal 
+              del Arco de los Androides y Cell.</p>
+             
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+
+       
+<!--Galeria Grupo Card #6--->
+          <div class="card-group">
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="imagenes/Majin Buu 2.gif"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Majin Buu</h5>
+                <p class="card-text">Es uno de los personajes más emblemáticos de “Dragon Ball Z”, el más fuerte y quien se encargó de cerrar la saga creada 
+                por Akira Toriyama. Gracioso, cruel, despistado, con transformaciones interminables, fue el villano más difícil para derrotar en ese entonces.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="imagenes/Shenron 2.gif"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Shenron</h5>
+                <p class="card-text">Es un dragón que concede deseos, aparece cuando alguien reúne las Dragon Balls de la Tierra y pronuncia el conjuro mágico. 
+                  Fue creado por Kami a partir de una estatuilla modelada por Mr. Popo y tiene la apariencia de un dragón chino de color verde.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card m-1 p-2">
+              <img class="card-img-top"
+                src="imagenes/mr-satan-lit.gif"
+                alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Mr. Satán</h5>
+                <p class="card-text">Es uno de los personajes de la serie de manga y anime Dragon Ball Z. Es el ganador de la edición Nº24 del Torneo Mundial 
+                  de las Artes Marciales de la Tierra, y es el suegro de Son Gohan, el padre de Videl, y el abuelo de Pan.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+
+<!--Galeria Grupo Card #7--->
+            <div class="card-group">
+              <div class="card m-1 p-2">
+                <img class="card-img-top"
+                  src="imagenes/raditz 2.gif"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Raditz</h5>
+                  <p class="card-text">Es el hijo de Bardock y Gine, y hermano mayor de Son Goku. Él es uno de los pocos saiyanos que sobrevivieron a la destrucción 
+                    del Planeta Vegeta, y formaba parte del equipo de Vegeta. Es el primer antagonista de Dragon Ball Z..</p>
+
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card m-1 p-2">
+                <img class="card-img-top"
+                  src="imagenes/Beerus 2.gif"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Beerus</h5>
+                  <p class="card-text"> El Dios de la Destrucción fue el villano principal de Dragon Ball Super. Sin embargo, ya 
+                    había hecho acto de presencia en la película Dragon Ball Z: La Batalla de los Dioses como antagonista. 
+                    El diseño del personaje es uno de los más singulares de Toriyama y se inspiró en su gato para crearlo, 
+                    así como en la mitología egipcia.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card m-1 p-2">
+                <img class="card-img-top"
+                  src="imagenes/Kaito 2.gif"
+                  alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Kaio-sama</h5>
+                  <p class="card-text">Es un personaje de Dragon Ball. Se trata del dios encargado de administrar las Galaxias del Norte, el 
+                    cuadrante boreal del Universo 7 y supervisar a los dioses de los planetas de dicho sector (como es el caso de Kami en la Tierra).</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+
+        <!--Galeria Grupo Card #8--->
+              <div class="card-group">
+                <div class="card m-1 p-2">
+                  <img class="card-img-top"
+                    src="imagenes/whis 2.gif"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Whis</h5>
+                    <p class="card-text">Es un ángel y asistente del Dios de la Destrucción del Universo 7, Beerus. 
+                      A pesar de ser un asistente de un Dios de la Destrucción, es más poderoso que Beerus..</p>
+                      
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card m-1 p-2">
+                  <img class="card-img-top"
+                    src="imagenes/jiren-dragonball-super.gif"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Jiren</h5>
+                    <p class="card-text"> Jiren es el personaje más poderoso del undécimo universo, es miembro de la Tropa del Orgullo, incluso 
+                      considerado más poderoso que algunos Dioses de la Destrucción.</p>
+                  
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card m-1 p-2">
+                  <img class="card-img-top"
+                    src="imagenes/Sumo Sacerdote 2.gif"
+                    alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Sumo Sacerdote</h5>
+                    <p class="card-text">Es un personaje introducido en Dragon Ball Super; es un ángel guía que recibe a las visitas en el palacete 
+                      del Rey de Todo y guía a los invitados hasta él. Es el padre de los ángeles guía de todos los universos, siendo que Kus es su hija mayor.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+<!--Galeria Grupo Card #9--->
+
+                <div class="card-group">
+                  <div class="card m-1 p-2">
+                    <img class="card-img-top"
+                      src="imagenes/Son Gohan 2.gif"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Son Gohan</h5>
+                      <p class="card-text"></p>Son Gohan es un personaje ficticio de la serie de manga Dragon Ball, creada 
+                      por Akira Toriyama. Gohan es presentado como el primer hijo del protagonista Goku y su esposa Chi-Chi.
+                       Hace su primera aparición en el capítulo # 196 Kakarrot.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card m-1 p-2">
+                    <img class="card-img-top" src="imagenes/dragon-ball-super-broly-gogeta.gif"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Gogeta</h5>
+                      <p class="card-text">Una fusión más entre Goku y Vegeta en la lista, Gogeta es el resultado de la fusión entre Goku y Vegeta 
+                        cuando los dos Saiyajin hacen la Danza Metamoru. Además, Gogeta puede transformarse en Blue Super Saiyan, la 
+                        transformación más poderosa de Super Saiyan.</p>
+                       
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                  <div class="card m-1 p-2">
+                    <img class="card-img-top" src="imagenes/son-goku-goku.gif" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Tao Pai Pai</h5>
+                      <p class="card-text">Es un personaje del manga y anime de Dragon Ball y posteriormente un personaje de relleno en Dragon Ball Z.
+                         Fue conocido como el asesino más famoso del mundo, y temido por muchas personas, sus servicios solo los podían solicitar muy pocas personas.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+      
+
+              <br><br>
+              <!--Fin Galeria-->
+  
+              <!--Galeria de Videos-->
+
+
+              <h3 id="titulo" class="text-center">Resumen de capitulos</h3>
+              <hr>
+
+              <div class="card-group">
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/S3mUxU9G8tM"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title">Dragon Ball Super 2: "2023" - BLACK FREEZER DESAFIA A LOS DIOSES DE LA DESTRUCCION !!</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/iHNfBH8bVVg" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                  <div class="card-body">
+                    <h5 class="card-title">Dragon Ball Super 2: "Goku se enfrenta a nuevos enemigos" Saga 2022</h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <iframe src="https://www.youtube.com/embed/Dg8XEX3ZkFw" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div class="card-body">
+                    <h5 class="card-title">Dragon Ball Super 2: Nueva Saga 2023 - "LA MUERTE DE ZENOSAMA""
+                    </h5>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+
+
+                <div class="card-group">
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/NMcWqvBY7Qs" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">DRAGON BALL Z: La Batalla de los 3 Sayajin |RESUMEN EN 15 MINUTOS
+                      </h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/SdAyo9w2VBg" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">DRAGON BALL Z: La Galaxia Está en Peligro | RESUMEN EN 15 MINUTOS</h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <iframe src="https://www.youtube.com/embed/Nm7mWM1kmoo" 
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">Resumen: Cooler Los Rivales Mas Poderosos, Dragon Ball Z
+                        </h5>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <hr />
+          </div>
+
+
+          <h3 id="titulo" class="text-center">Ver todas las Temporadas </h3>
+          <hr>
+          <!-- Boton Ver Serie-->
+
+          <div class="w-100 ">
+
+            <!-- Boton Ver Serie-->
+            <div class="text-center center-block">
+
+              <a href="https://www.justwatch.com/ar/serie/dragon-ball/temporada-1" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">Ver Temprada # 1</a>
+
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://animanga.es/anime/dragon-ball/temporada-2/" 
+                target="_blank" class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button"
+                aria-disabled="true">Ver Temporada # 2
+              </a>
+
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://animanga.es/anime/dragon-ball-z/temporada-3/" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">Ver Temprada # 3</a>
+                
+
+            </div>
+            <br>
+            <div class="text-center center-block">
+
+              <a href="https://www.youtube.com/watch?v=g_kdew4Gpvw" target="_blank"
+                class="btn btn-danger btn-lg btn-block" tabindex="-1" role="button" aria-disabled="true">Ver La Pelicula</a>
+
+            </div>
+            <!--Fin Boton Ver Serie-->
+
+
+            <!--Redes Sociales-->
+            <br>
+            <h3 class="text-center">Mis Redes Sociales</h3>
+            <hr />
+            <div class="text-center center-block">
+              <div class="social">
+                <a href="https://www.linkedin.com/feed/" target="_blank"><i
+                    class="fa fa-linkedin-square fa-3x social"></i></a>
+                <a href="https://www.youtube.com/channel/UC9a4kFNBopm9kDyxVtoixKA" target="_blank"><i
+                    class="fa fa-youtube-square fa-3x social"></i></a>
+                <a href="https://www.facebook.com/hainder.theking.rosario" target="_blank"><i
+                    class="fa fa-facebook-square fa-3x social"></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i
+                    class="fa fa-twitter-square fa-3x social"></i></a>
+                <a href="https://github.com/Joerg23" target="_blank"><i
+                    class="fa fa-github-square fa-3x social"></i></a>
+              </div>
+
+            </div>
+            <hr />
+            <!--Fin Redes Sociales-->
+            <!--Footer-->
+            <footer id="footer" class="pb-4 pt-4 bg-danger">
+            <h4 class="text-center">Ing. Haider Joerg Rosario <small>&copy; 2023. Todos los derechos reservados.</small></h4>
+            </footer>
+            <!--Fin footer-->
+
+          </div>
+
+          <!--Main Container-->
+
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+          integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+          crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+          crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js "
+          integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc "
+          crossorigin="anonymous "></script>
+
+
+</body>
+
+</html>
